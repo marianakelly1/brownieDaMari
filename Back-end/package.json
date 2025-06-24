@@ -1,0 +1,18 @@
+{
+  "name": "mariana",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Mariana",
+  "license": "ISC",
+  "description": "Projeto Brownie da Mari",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "corss": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.2"
+  }
+}

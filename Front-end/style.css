@@ -1,0 +1,123 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f5;
+    margin: 0;
+    padding: 0;
+    color: #4B2E2E;
+}
+
+/* Topo do site (logo e botoes) */
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #AA4E2B;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botoes do menu (carrinho e historico) */
+.menu-header button {
+    margin-left: 10px;
+    background-color: #4B2E2E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-header button:hover {
+    background-color: #8B4513;
+}
+
+/* cards (informaçoes, brownie e recheios) */
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo dos cards */
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Titulos dos cards */
+.card h2, .card h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Inputs (CPF) */
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+/* Botoes do carrinho */
+.botoes button {
+    margin-right: 10px;
+    background-color: #4B2E2E;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.botoes button:hover {
+    background-color: #8B4513;
+}
+
+/* Card resumo */
+.resumo {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+/* Card aumentar tamanho (carrinho, resumo do pedido e historico) */
+.full {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Centralizar logo */
+.centralizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+

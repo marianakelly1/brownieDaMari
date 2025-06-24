@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie da Mari 🍫</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+        <header class="topo centralizado">
+    <img width="400" src="imgs/logoBrownie.png" alt="Logo Brownie da Mari" class="logo" />
+</header>
+
+
+    <main class="grid">
+        <!-- Coluna 1: Dados -->
+        <section class="card">
+            <h2>🧾 Informações: </h2>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" oninput="atualizarResumoPedido()">
+        </section>
+
+        <!-- Coluna 2: Brownie -->
+        <section class="card">
+            <h2> Escolha seu Brownie: </h2>
+            <div id="brownie"></div>
+        </section>
+
+        <!-- Coluna 3: Recheios -->
+        <section class="card">
+            <h2>Recheios: </h2>
+            <div id="recheios"></div>
+        </section>
+    </main>
+
+    <!-- Carrinho e Ações -->
+    <section class="card full">
+        <h2>🛒 Carrinho</h2>
+        <div id="carrinho"></div>
+        <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+
+        <div class="botoes">
+            <button onclick="adicionarAoCarrinho()">➕ Adicionar ao Carrinho</button>
+            <button onclick="confirmPayment()">💳 Pagar</button>
+        </div>
+    </section>
+
+    <!-- Resumo -->
+    <section class="card full resumo">
+        <h3>Resumo do Pedido</h3>
+        <p id="resumo-conteudo">Nenhum item no carrinho.</p>
+    </section>
+
+    <!-- Histórico -->
+    <section class="card full">
+        <h2>📜 Histórico de Pedidos</h2>
+        <button onclick="getAllHistory()">Ver Pedidos</button>
+        <div id="historico"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
