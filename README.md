@@ -4,6 +4,7 @@ O projeto Brownie da Mari é uma aplicaçaõ web para venda de personalizada de 
 
 ## Design do projeto
 
+
 ![WhatsApp Image 2025-06-24 at 18 07 16](https://github.com/user-attachments/assets/27b9a2b9-bb16-4fed-8ff6-bdce22b7769b)
 
 ![WhatsApp Image 2025-06-24 at 18 07 18](https://github.com/user-attachments/assets/9d229171-3bb2-4473-890e-d43d6307c611)
